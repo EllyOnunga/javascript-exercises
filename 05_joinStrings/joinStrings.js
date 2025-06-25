@@ -4,12 +4,17 @@ const lastName = "Teremi";
 const thisYear = 2025;
 const birthYear = 1990;
 
-const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+const fullName = firstName + " " + lastName;
+const age = thisYear - birthYear;
+
+const greeting = "Hello! My name is " + fullName + " and I am " + age + " years old.";
 
 console.log(greeting);
 
 module.exports = {
   greeting,
+  fullName,
+  age,
   birthYear,
   thisYear,
   firstName,
