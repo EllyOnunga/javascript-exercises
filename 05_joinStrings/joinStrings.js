@@ -1,3 +1,22 @@
+
+const firstName = "John";
+const lastName = "Teremi";
+const thisYear = 2025;
+const birthYear = 1990;
+
+const greeting = "Hello! My name is " + firstName + " " + lastName + " and I am " + (thisYear - birthYear) + " years old.";
+
+console.log(greeting);
+
+module.exports = {
+  greeting,
+  birthYear,
+  thisYear,
+  firstName,
+  lastName
+}
+
+
 /*
  First name: Carlos
  Last name: Stevenson
